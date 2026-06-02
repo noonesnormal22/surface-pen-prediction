@@ -1,5 +1,5 @@
 # DISCLAIMER!!!
-This plug-in was made in Claude Code and will likely have quirks that only something like Claude Code will produce. I'm an artist first before anything else, so I, the human typing this paragraph, just need something that works. It still needs some extra tweaking here and there, but for what it can do, I was impressed. Please fork this and make it better (and don't tell the other artist this was made with AI XD).
+This plug-in was made in Claude Code and will likely have quirks that only something like Claude Code will produce. I'm an artist first before anything else, so I, the human typing this paragraph, just need something that works. It still needs some extra tweaking here and there, but for what it can do, I was impressed. Please fork this and make it better.
 
 ---NoOnesNormal
 
