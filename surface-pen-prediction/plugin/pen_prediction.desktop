@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=pen_prediction
+X-Python-2-Compatible=false
+Name=Pen Prediction
+Comment=Reduces polygon artifacts from Surface Pro pen lag via predictive event synthesis

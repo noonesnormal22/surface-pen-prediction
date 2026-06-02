@@ -1,0 +1,15 @@
+[Unit]
+Description=Surface Pen Predictive Event Synthesizer
+After=graphical-session.target
+
+[Service]
+Type=simple
+# __DAEMON_DIR__ is replaced with the real install path by install.sh.
+ExecStart=/usr/bin/python3 __DAEMON_DIR__/daemon/ipts-predict.py --factor 3 --smoothing 2 --sensitivity 0.5 --lookahead 15
+Restart=on-failure
+RestartSec=3
+StandardOutput=append:/tmp/ipts-predict.log
+StandardError=append:/tmp/ipts-predict.log
+
+[Install]
+WantedBy=graphical-session.target

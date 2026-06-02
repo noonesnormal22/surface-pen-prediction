@@ -1,0 +1,2 @@
+SUBSYSTEM=="input", KERNEL=="event[0-9]*", ATTRS{name}=="IPTSD Virtual Stylus*", TAG+="uaccess"
+KERNEL=="uinput", GROUP="plugdev", MODE="0660"
